@@ -1,0 +1,86 @@
+.welcome-header {
+  margin: 90px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-header__logoBG {
+  background-color: var(--main-color);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.welcome-header__logo {
+  font-size: 45px;
+}
+
+.welcome-header__title {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.welcome-header__text {
+  margin-top: 15px;
+  font-size: 18px;
+  color: var(--text-gray);
+  line-height: 1.25;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  color: var(--text-gray);
+}
+
+.login-form__text {
+  margin-bottom: 10px;
+}
+
+.login-form__input {
+  padding: 20px;
+  font-size: 16px;
+  margin: 5px 0;
+  background-color: var(--bg4);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+.login-form__input:not(.login-form__input--btn) {
+  transition: transform 0.15s ease-in-out;
+}
+
+.login-form__input::placeholder {
+  color: var(--text-gray);
+}
+
+.login-form__input:focus:not(.login-form__input--btn) {
+  transform: scale(1.025);
+}
+
+.login-form_a {
+  margin: 10px 0;
+  color: var(--link-blue);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-form__input--btn {
+  margin-top: 20px;
+  background-color: var(--main-color);
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.login-form__input--btn:hover {
+  transform: scale(0.975);
+  background-color: #4c57cf;
+}

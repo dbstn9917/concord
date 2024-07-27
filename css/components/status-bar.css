@@ -1,8 +1,17 @@
+body {
+  margin-top: 30px;
+}
+
 .status-bar {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   padding: 7px;
   background-color: var(--bg4);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .status-bar__column {

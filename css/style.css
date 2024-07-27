@@ -3,11 +3,15 @@
 @import "reset.css";
 @import "variables.css";
 
-/* Components */
-@import "components/status-bar.css";
-
 /* Screens */
 @import "screens/welcome.css";
+@import "screens/friends.css";
+
+/* Components */
+@import "components/top-header.css";
+@import "components/user-component.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;

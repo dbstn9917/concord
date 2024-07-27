@@ -1,0 +1,52 @@
+.friends-main {
+  margin: 0 var(--main-space);
+}
+
+.friends-search {
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.friends-search__bar {
+  color: white;
+  background-color: var(--bg4);
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  padding-right: 50px;
+  border-radius: 5px;
+}
+
+.friends-search__bar::placeholder {
+  color: var(--text-gray);
+}
+
+.friends-search i {
+  color: var(--text-gray);
+  position: absolute;
+  font-size: 20px;
+  top: 9px;
+  right: 9px;
+}
+
+.friends-main__user-me {
+  padding-top: 5px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.all-friends__counter {
+  display: block;
+  margin: 15px 0;
+  color: var(--text-gray);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.friends-main__all-friends .user-component {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

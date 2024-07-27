@@ -1,15 +1,18 @@
 :root {
+  /* colors */
   --main-color: #5865f2;
   --text-gray: #949ba4;
   --link-blue: #00a8fc;
   --red: #da373c;
   --yellow: #f0b232;
   --green: #248046;
-  /* background */
+  /* background colors */
   --bg1: #313338;
   --bg2: #2b2d31;
   --bg3: #232428;
   --bg4: #1e1f22;
   --bgpick: #404249;
   --bgthr: #282a2e;
+  /* etc */
+  --main-space: 20px;
 }

@@ -1,0 +1,18 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--main-space);
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.top-header__title i {
+  margin-right: 15px;
+  color: var(--text-gray);
+}
+
+.top-header__btn {
+  color: var(--text-gray);
+  margin-left: 20px;
+}

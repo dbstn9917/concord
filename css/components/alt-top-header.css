@@ -9,6 +9,7 @@
   top: 30px;
   width: 100%;
   box-sizing: border-box;
+  z-index: 99;
 }
 
 .alt-top-header__column {

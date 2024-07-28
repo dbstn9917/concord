@@ -19,6 +19,10 @@
   border-radius: 50%;
 }
 
+.user-component .main-logo i {
+  font-size: 30px;
+}
+
 .user-component__img--lg {
   height: 80px;
   width: 80px;
@@ -99,6 +103,10 @@
   font-weight: 600;
 }
 
+.user-component__btn-box {
+  display: flex;
+}
+
 .user-component__btn {
   display: flex;
   width: 45px;
@@ -110,4 +118,13 @@
   font-size: 24px;
   background-color: var(--bg2);
   margin-left: 12px;
+}
+
+.user-component__column:last-child {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column .badge {
+  margin-top: 10px;
 }

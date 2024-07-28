@@ -37,24 +37,12 @@ body {
 }
 
 .nav__noti {
-  background-color: var(--red);
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
   border: 3px solid var(--bg2);
-  font-size: 12px;
-  font-weight: 600;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   bottom: 15px;
   left: 20px;
 }
 
 .nav__noti--dot {
-  width: 5px;
-  height: 5px;
   left: 30px;
 }

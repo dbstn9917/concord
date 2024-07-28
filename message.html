@@ -1,1 +1,290 @@
-메시지!
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONCORD - Friends</title>
+  </head>
+  <body>
+    <!-- ToDolist -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__service">No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__time">18:26</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-arrows-rotate"></i>
+        <span class="status-bar__battery-per">58%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+      </div>
+    </div>
+
+    <header class="top-header">
+      <h1 class="top-header__title">
+        <i class="fa-solid fa-comment"></i>메시지
+      </h1>
+      <div class="top-header__btn-box">
+        <span class="top-header__btn">
+          <i class="fa-solid fa-comment-medical"></i>
+        </span>
+        <span class="top-header__btn">
+          <i class="fa-solid fa-bell"></i>
+        </span>
+        <span class="top-header__btn"><i class="fa-solid fa-gear"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen message-main">
+      <div class="message-main__all-message">
+        <!-- All Friends - User Component -->
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://ac-p1.namu.la/20220604sac2/cdcbe028ecfb63fd60a3ff895551fb31b29123faa8231420c27aaf525b0c11ad.png?expires=1722091836&key=krejxCRMhewyQE7Xjr9Vsw"
+              />
+              <div class="user-component__state user-component__state--DnD">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">유정</h3>
+              <span class="user-component__subtitle">사진을 보냈습니다.</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">18:15</span>
+            <div class="badge">2</div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/ytc/AIdro_mS2D-pQrXTjv3CLuqfGl1Ub6R4j9lNwunejETfFdTVvak=s160-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--DnD">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">SnuffyFluffy</h3>
+              <span class="user-component__subtitle"
+                >how did we dominate server as DUO??</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">14:21</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/ytc/AIdro_mHtaODEGCXS-7Jp-UHPXZzpccfEYlk1AXi9jIbE4-tHUM=s900-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--online">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">Blooprint</h3>
+              <span class="user-component__subtitle">Welcome To RUST!</span>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">어제</span>
+            <div class="badge">3</div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/ytc/AIdro_ma3JfUCom0f3dj06ga3PuOco-Cbq5M76MKF5V2f9iVQYY=s900-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--offline">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">hJune</h3>
+              <span class="user-component__subtitle"
+                >we took over a 30 man clan in Rust…</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">어제</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/paKfYGEsaVLp6H8U9VQHpRy0XhdjYDam5bPOfe7Ers54oXdjWEJmHarWFwF6FAjP5ldPBl65=s160-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--online">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">Crow</h3>
+              <span class="user-component__subtitle"
+                >Strong & Simple Solo/Duo Bunker Base</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">3일 전</span>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/cHS78zTjd3CoZuvN0ij6FmS6tZdQhy7i7y96zM-lpuZWRyogwY0wdIRT4Vx3PBvOdWry_W0MCw=s160-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--offline">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">Yexom</h3>
+              <span class="user-component__subtitle"
+                >I Farmed 10,000,000 Cloth in 30 Days</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">1개월 전</span>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/5BBOpg952VcTo2u2czFN_dn9jEkRH2oT10De_xgpBeH_Rv152H2x55tQPpL5e7qay4mzMXWjsg=s160-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--DnD">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">Drizzza</h3>
+              <span class="user-component__subtitle"
+                >Never Get Offlined Again with This Circuit</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">1개월 전</span>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <img
+                class="user-component__img"
+                src="https://yt3.googleusercontent.com/UU15xL5baiiRNWDZA5dkjAzkCuzPRTt5Jof4M-aYadmAsaxIW3QY1qrxWx5QDYQ77HFJ2myCTQ=s900-c-k-c0x00ffffff-no-rj"
+              />
+              <div class="user-component__state user-component__state--idle">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">Willjum</h3>
+              <span class="user-component__subtitle"
+                >I Built a water base with hJune..</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">1개월 전</span>
+          </div>
+        </div>
+
+        <div class="user-component">
+          <div class="user-component__column">
+            <div class="user-component__img-box">
+              <div class="user-component__img main-logo">
+                <i class="fa-solid fa-vr-cardboard"></i>
+              </div>
+              <div class="user-component__state user-component__state--online">
+                <div class="user-component__state-icon"></div>
+              </div>
+            </div>
+            <div class="user-component__text-box">
+              <h3 class="user-component__title">CONCORD</h3>
+              <span class="user-component__subtitle"
+                >콩코드에 가입해 주셔서 감사합니다!</span
+              >
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">2개월 전</span>
+          </div>
+        </div>
+
+        <!-- /All Friends - User Component -->
+      </div>
+    </main>
+
+    <nav class="nav-bar">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="friends.html" class="nav-btn">
+            <i class="fa-solid fa-user"></i>
+            친구
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="message.html" class="nav-btn nav-btn--on">
+            <span class="nav__noti badge">7</span>
+            <i class="fa-solid fa-comment"></i>
+            메시지
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="find.html" class="nav-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            찾기
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="more.html" class="nav-btn">
+            <span class="badge badge--dot nav__noti nav__noti--dot"></span>
+            <i class="fa-solid fa-ellipsis"></i>
+            더보기
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/9494853238.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

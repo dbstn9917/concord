@@ -6,15 +6,22 @@
 /* Screens */
 @import "screens/welcome.css";
 @import "screens/friends.css";
+@import "screens/message.css";
 
 /* Components */
+@import "components/main-logo.css";
 @import "components/top-header.css";
 @import "components/user-component.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/badge.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;
   background-color: var(--bg1);
   color: white;
+}
+
+.main-screen {
+  margin: 0 var(--main-space);
 }

@@ -1,3 +1,6 @@
+.find-main {
+  padding-top: 15px;
+}
 .find-joined-server {
   border-top: var(--main-border);
   border-bottom: var(--main-border);

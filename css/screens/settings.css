@@ -1,3 +1,7 @@
+.setting-main {
+  padding-top: var(--main-space);
+}
+
 .settings-body {
   background-color: var(--bg3);
 }

@@ -10,6 +10,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 /* Components */
 @import "components/main-logo.css";
@@ -25,6 +26,7 @@ body {
   font-family: "Noto Sans KR", sans-serif;
   background-color: var(--bg1);
   color: white;
+  margin-top: 97px;
 }
 
 .main-screen {

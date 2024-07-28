@@ -3,7 +3,7 @@
 }
 
 .friends-search {
-  margin: 10px 5px;
+  padding: 10px 5px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -27,8 +27,8 @@
   color: var(--text-gray);
   position: absolute;
   font-size: 20px;
-  top: 9px;
-  right: 9px;
+  top: 19px;
+  right: 14px;
 }
 
 .friends-main__user-me {

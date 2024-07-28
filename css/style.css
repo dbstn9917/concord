@@ -21,6 +21,7 @@
 @import "components/badge.css";
 @import "components/icons-low.css";
 @import "components/alt-top-header.css";
+@import "components/no-mobile.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;

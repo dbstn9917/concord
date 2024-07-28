@@ -1,0 +1,43 @@
+.settings-body {
+  background-color: var(--bg3);
+}
+
+.settings-list__header {
+  color: var(--text-gray);
+  padding: 10px 0;
+}
+
+.settings-list {
+  background-color: var(--bg2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.settings-list__li {
+  height: 65px;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-list__li:not(:last-child) {
+  border-bottom: 1px solid var(--bg1);
+}
+
+.settings-list__column1,
+.settings-list__column2 {
+  display: flex;
+  align-items: center;
+}
+
+.settings-list__column1 span {
+  margin-left: 15px;
+}
+.settings-list__column1 i {
+  font-size: 24px;
+}
+
+.settings-list__column2 {
+  color: var(--text-gray);
+}

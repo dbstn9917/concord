@@ -1,0 +1,32 @@
+.alt-top-header {
+  padding: var(--main-space);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  color: var(--text-gray);
+}
+
+.alt-top-header__column {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.alt-top-header__column:nth-child(2) {
+  width: 40%;
+  justify-content: center;
+}
+
+.alt-top-header__column:last-child {
+  justify-content: flex-end;
+}
+
+.alt-top-header__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+}
+
+.alt-top-header__btn {
+  margin-left: 15px;
+}

@@ -8,6 +8,7 @@
 @import "screens/friends.css";
 @import "screens/message.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 /* Components */
 @import "components/main-logo.css";
@@ -16,6 +17,7 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/badge.css";
+@import "components/icons-low.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;

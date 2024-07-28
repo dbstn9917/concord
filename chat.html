@@ -42,7 +42,85 @@
       </div>
     </header>
 
-    <main class="chat-main">testing</main>
+    <main class="chat-main">
+      <div class="chat-time-stamp">
+        <hr class="chat-time-stamp__bar" />
+        <span class="chat-time-stamp__time">2024년 7월 28일</span>
+        <hr class="chat-time-stamp__bar" />
+      </div>
+
+      <div class="chat-message">
+        <img
+          class="chat-message__img"
+          src="https://ac-p1.namu.la/20220604sac2/cdcbe028ecfb63fd60a3ff895551fb31b29123faa8231420c27aaf525b0c11ad.png?expires=1722091836&key=krejxCRMhewyQE7Xjr9Vsw"
+        />
+        <div class="chat-message__text-box">
+          <div class="chat-message__title-box">
+            <span class="chat-message__title">유정</span>
+            <span class="chat-message__time">오늘 18:01</span>
+          </div>
+          <span class="chat-message__message">편의점 들리는 김에</span>
+          <span class="chat-message__message">오면서 우유 사와줘</span>
+          <span class="chat-message__message">만약에 아보카도 있으면</span>
+          <span class="chat-message__message">6개 사와</span>
+        </div>
+      </div>
+
+      <div class="chat-message">
+        <!-- chat-message--me <- 이거 너무 안이쁨... -->
+        <img
+          class="chat-message__img"
+          src="https://avatars.githubusercontent.com/u/170064271"
+        />
+        <div class="chat-message__text-box">
+          <div class="chat-message__title-box">
+            <span class="chat-message__title">윤수</span>
+            <span class="chat-message__time">오늘 18:10</span>
+          </div>
+          <span class="chat-message__message"
+            >아보카도 있길래 우유 6개 사왔어!</span
+          >
+        </div>
+      </div>
+
+      <div class="chat-message">
+        <img
+          class="chat-message__img"
+          src="https://ac-p1.namu.la/20220604sac2/cdcbe028ecfb63fd60a3ff895551fb31b29123faa8231420c27aaf525b0c11ad.png?expires=1722091836&key=krejxCRMhewyQE7Xjr9Vsw"
+        />
+        <div class="chat-message__text-box">
+          <div class="chat-message__title-box">
+            <span class="chat-message__title">유정</span>
+            <span class="chat-message__time">오늘 18:15</span>
+          </div>
+          <span class="chat-message__message">???????????</span>
+          <span class="chat-message__message">여기를 눌러보세요!</span>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <button class="reply__btn">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <button class="reply__btn">
+          <i class="fa-solid fa-gift"></i>
+        </button>
+        <button class="reply__btn">
+          <i class="fa-solid fa-image"></i>
+        </button>
+      </div>
+      <div class="reply__column">
+        <input class="reply__bar" type="text" placeholder="메세지 보내기" />
+        <i class="fa-solid fa-face-smile-wink"></i>
+      </div>
+      <div class="reply__column">
+        <button class="reply__btn">
+          <i class="fa-solid fa-microphone"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/9494853238.js"

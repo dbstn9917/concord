@@ -1,4 +1,147 @@
 .chat-main {
   padding: var(--main-space);
-  height: 1100vh;
+}
+
+.chat-time-stamp {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.chat-time-stamp__bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background-color: var(--bgpick);
+}
+
+.chat-time-stamp__time {
+  color: var(--text-gray);
+  padding: 0 7px;
+  font-size: 14px;
+}
+
+.chat-message {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.chat-message--me {
+  flex-direction: row-reverse;
+}
+
+.chat-message__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.chat-message--me .chat-message__img {
+  display: none;
+}
+
+.chat-message__text-box {
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-message--me .chat-message__text-box {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.chat-message__title-box {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 7px;
+}
+
+.chat-message--me .chat-message__title-box {
+  flex-direction: row-reverse;
+}
+
+.chat-message__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.chat-message--me .chat-message__title {
+  display: none;
+}
+
+.chat-message__time {
+  padding-left: 10px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+.chat-message__message {
+  padding: 7px 0;
+}
+
+.reply {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--bg1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reply__column {
+  display: flex;
+  align-items: center;
+}
+
+.reply__column:first-child {
+  width: 40%;
+  justify-content: space-around;
+}
+.reply__column:nth-child(2) {
+  width: 45%;
+  position: relative;
+}
+.reply__column:last-child {
+  width: 15%;
+  justify-content: center;
+}
+
+.reply__bar {
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: var(--bgpick);
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0 20px;
+}
+
+.reply__bar + i {
+  position: absolute;
+  right: 5px;
+  font-size: 38px;
+  color: var(--text-gray);
+}
+
+.reply__bar::placeholder {
+  color: var(--text-gray);
+}
+
+.reply__btn {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--bgpick);
+  color: var(--text-gray);
+  font-size: 24px;
 }

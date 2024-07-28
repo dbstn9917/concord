@@ -1,6 +1,3 @@
-.message-main__all-message {
-  margin-top: var(--main-space);
-}
 .message-main__all-message .user-component {
   padding-top: 10px;
   padding-bottom: 20px;

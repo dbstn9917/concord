@@ -16,3 +16,13 @@
   color: var(--text-gray);
   margin-left: 20px;
 }
+
+.top-header__btn--noti {
+  position: relative;
+}
+
+.top-header__btn--noti .badge {
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+}

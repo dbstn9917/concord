@@ -34,7 +34,7 @@
 .friends-main__user-me {
   padding-top: 5px;
   padding-bottom: 30px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: var(--main-border);
 }
 
 .all-friends__counter {
@@ -46,7 +46,7 @@
 }
 
 .friends-main__all-friends .user-component {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: var(--main-border);
   padding-top: 10px;
   padding-bottom: 20px;
 }

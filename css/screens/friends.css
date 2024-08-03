@@ -1,7 +1,3 @@
-.friends-main {
-  margin: 0 var(--main-space);
-}
-
 .friends-search {
   padding: 10px 5px;
   display: flex;
@@ -10,6 +6,7 @@
 }
 
 .friends-search__bar {
+  margin: 0 var(--main-space);
   color: white;
   background-color: var(--bg4);
   border: none;
@@ -33,10 +30,11 @@
   position: absolute;
   font-size: 20px;
   top: 19px;
-  right: 14px;
+  right: 34px;
 }
 
 .friends-main__user-me {
+  margin: 0 var(--main-space);
   padding-top: 5px;
   padding-bottom: 30px;
   border-bottom: var(--main-border);
@@ -44,14 +42,24 @@
 
 .all-friends__counter {
   display: block;
-  margin: 15px 0;
+  margin: 15px var(--main-space);
   color: var(--text-gray);
   font-size: 14px;
   font-weight: 600;
 }
 
 .friends-main__all-friends .user-component {
+  margin: 0 var(--main-space);
   border-top: var(--main-border);
   padding-top: 10px;
   padding-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.friends-main__all-friends .user-component:hover {
+  margin: 0;
+  padding: 10px var(--main-space);
+  padding-bottom: 20px;
+  background-color: var(--bgpick);
+  border-radius: 15px;
 }

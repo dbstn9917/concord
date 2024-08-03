@@ -29,6 +29,20 @@
   border-bottom: 1px solid var(--bg1);
 }
 
+.settings-list__li:hover {
+  background-color: var(--bg1);
+}
+
+.settings-list__li:first-child:hover {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.settings-list__li:last-child:hover {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 .settings-list__column1,
 .settings-list__column2 {
   display: flex;

@@ -26,6 +26,10 @@ body {
   margin-left: 20px;
 }
 
+.top-header__btn:hover {
+  color: white;
+}
+
 .top-header__btn--noti {
   position: relative;
 }

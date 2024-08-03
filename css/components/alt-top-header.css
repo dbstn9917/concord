@@ -18,6 +18,10 @@
   width: 30%;
 }
 
+.alt-top-header__column:first-child a:hover {
+  color: white;
+}
+
 .alt-top-header__column:nth-child(2) {
   width: 40%;
   justify-content: center;

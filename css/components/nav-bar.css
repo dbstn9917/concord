@@ -27,6 +27,10 @@ body {
   position: relative;
 }
 
+.nav-btn:hover {
+  color: white;
+}
+
 @keyframes jello {
   0% {
     transform: none;

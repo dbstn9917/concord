@@ -111,6 +111,14 @@
   right: 7px;
 }
 
+.find-server-list__online-count i {
+  transition: color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.find-server-list__online-count:hover i {
+  color: var(--green);
+}
+
 .find-server-list__online-count span {
   font-size: 14px;
   margin-left: 5px;

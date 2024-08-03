@@ -17,10 +17,15 @@
   padding: 10px;
   padding-right: 50px;
   border-radius: 5px;
+  transition: transform 0.15s ease-in-out;
 }
 
 .friends-search__bar::placeholder {
   color: var(--text-gray);
+}
+
+.friends-search__bar:focus {
+  transform: scale(1.025);
 }
 
 .friends-search i {

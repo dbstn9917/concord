@@ -18,6 +18,7 @@
 }
 
 .find-server__header {
+  margin: 0 var(--main-space);
   margin-top: 20px;
   margin-bottom: 5px;
   display: flex;
@@ -33,14 +34,23 @@
 }
 
 .find-server-list {
+  margin: 0 var(--main-space);
   padding: 15px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: all 0.2s ease-in-out;
 }
 
 .find-server-list:not(:last-child) {
   border-bottom: var(--main-border);
+}
+
+.find-server-list:hover {
+  margin: 0;
+  padding: 15px var(--main-space);
+  background-color: var(--bgpick);
+  border-radius: 25px;
 }
 
 .find-server-list__column {

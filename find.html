@@ -62,100 +62,98 @@
         <h2>가입한 서버 목록</h2>
         <span>가입한 서버가 없네요... 😢</span>
       </div>
+    </main>
 
-      <div class="find-server">
-        <div class="find-server__header">
-          <h2>추천 서버</h2>
-          <span
-            >다른 서버 알아보기 <i class="fa-solid fa-chevron-right"></i
-          ></span>
-        </div>
+    <div class="find-server">
+      <div class="find-server__header">
+        <h2>추천 서버</h2>
+        <span
+          >다른 서버 알아보기 <i class="fa-solid fa-chevron-right"></i
+        ></span>
+      </div>
 
-        <div class="find-server-list">
-          <div class="find-server-list__column">
-            <h3 class="find-server-list__title">MDN Web Docs Community</h3>
-            <span class="find-server-list__hashtags">#mdn #developer #web</span>
-            <div class="find-server-list__info">
-              <img
-                class="find-server-list__owner-img"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABnlBMVEX////wTVLyWlUuMZL810r8tTn9wjjwUFPwS1DxVlT81krwSU7wS1LxU1PwRUrwT1L2Tk/83krwQUYrL5P9uTj86k38T03uRlL9vDjuOkDuPEL7+PgZL5b820r/vzH2W1T67+/8y0D23+DrV1vzxcb46uv/zDEkK5Xulpj/UEv609TtN1HtZmr81Df67LH8zEHun6D65JbufYD85Ezxubrsb3Lt7fP8+uldNobuiYyAO3z7sDvuYE/2mUDvmZvtMTjzg0bxkU5GM4z4xEq5RGjuam79++/64KT65pz89Nr6y138wSH622T78s364YH778D61HD64YT52Fr604D62pDuEh3vrK7/8rf/yRjZ2efHxtmZmsJxbZpfUXtTS4dKQ4lyYHWYfGvEml7arExpaqc8PpMSFoqGh7UGDYeDa3XGoFOhocMAAISegGrerkaplmsAAJZ0gbWRNHDjylSpQW7WvlnYSl1TTYXLSGK6pWZVNYayQmvxik/wbEn/ojizfmHydkj1rk5xOYC0iV1yW33em1CyX2Pwe1PSSV65TmsjWfAvAAAQV0lEQVR4nO2d+V/b5h3HkTBIRodt2bF8YtXGMzimoTYknDGBkDShWdJsY2u3BJoOmrRduhJKGSk00G5J/us9Omxdjx5JlmQHXvr80tTBSG99z+fQk6GhUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUFrd+/zOoG8hWN39aPrTQd9DkLp3fzMSidwb9G0Ep7ub4wAw8tmg7yMo3Xm0OXpNJJz+eNC3EozurY+PjkYkTV/KZPPgIwA4phD+cdB3E4AebgJAxYQA8eGg78d3PdwEfHIUyrox6DvyWTJgx0kvoZ8+GJWlmvCS5dMbYpLROylAvEx+qgBqnPSS1f1HCqCB8PL0px9vjprDUEJ8MOhb80f3OhY0EUYeX47W5n6X8CMj4fSlCMW7XR81E16KULwxquqaifAyhOKjcSThxe/e7m2ibXjxQ3F93IYwMv35oO/Rkx5qTQgnLF7obHNnfdSWECBe4GyjNyGkWkhKTF/cubf7404II60PoLcRmtUevvVAb0JLwmLrse937FITNCH08LVHehOa+1JFY4nWYGtGfibLNgT337tjBLQijIy1WoOsGcJcFiMbefdfvLvplDASuTL9if937lB1ksMwqhfC+0ZAwwhYa8TilYGVxdk2hQHCDThhHgF+x2RCi4Io++mgrLiVJTHMyoblm5UJ668+dEMYGbsyGMQZGRBKWJ3kclzZ+rt/MiUay3Ih++kgHHUyi8mCZJpZlsOoirWXGjo2u1Qj+mmr73OoCx1AjKwI+r8SNtrAumzT+sv3zE6KSDWDQbzZBTQR1mlW/Ji7af1tSBgiAxHoypVEd8VmQrD+1X5pSwXESELXtc2ylPRxFpFo/mwOQ2QgyqFY7KyAl+eCZJMplCQjE5LalNLJPxgq0ZhaNrtAFLs3gNhpUTcWgqQDmtACYjSrYWl28w9p3Y9DEw06EKVQvNJZlJr9y1aggFUdoNZa+blc50MK0a3egALaBKI22+RzqBjwrHyD1QFiuc7VhCbX/RCZSqFOig5E2VETSig2WQwRBF41mdUDYpziMsKcCoixiFCBFgu7QJStmJCHUrM5tpdu2JkmjIAYp8BscNoPEcXCOPp1Fogyouyn1Vz3qr6rSpFGQqoh/kW+oQXEcjPWv+Ovf/uDKhduKiNK08QNCmvPBkM4xxoBMZICMZFv6gAtCa9/8eXf//Hk6fb27vb20yc7Xz37el2ltCWMRFqtR+Kv2eIwku1l9sRWsyYfVQJxwfAXWUg+v/7FN//cre3t1Wq1pCjwX/A/u0++ApTO3DQijofF1qYOnieHSGY9K8+afFQ0IivMGMnNNvzym93ne7XksFFJgLn74lvRkvZuKjY34uybUAE3kg3ATydzEECAmOWMHxkyzfXvhr+H0KmUz5P/AoZ0YMOxljSQAvUC2VX0qDIcECZdtbj+Y23PGk+B3KvtvJwuOvHTIkg2W+KtsL43qE1zmrESpV78+jdJhPm0hqy9eJWwN2KiBQb8delh+93a1E2+iDJi5+Lf7drar6u94R8StmYEfnpjqEqKGYGq+EsIqRQII8qI158+d8wn2vH5z69adoTFxCdD+Q1pkOZvsqk7j0JRZBsgfvd9zQWfqNq/f7BDjBSBERekx81Qgo+ErkwoImZnf3TuoKoZ93Ye23nq9CdDM/LzRnWHblVtuwMEiNx+wTUg0N7P9gnnhtwf01HCv4px002eUZQ+6AmxlrRDnP60KvcYDDfpF2De3HI7QTzqDXHvpwSyhSs+viPHTAyn/DIitCN1gHi41gtjsvYT0orF6Y8P5SeOs4hRjCu5qPY6xSvzvSDW1tCIkc8aEiEdxTl/AKvQntsRIrHoADFpTLq1XXRGTZzQEiGD+1QTe3RSUeSUfUpdmx8uAGkxaz8j62LiLS//epxp+ELothjqNHU0bMd4MJWuHB2cD2so916gEBO/dAjxth+zUtVYr04qKV45t0EsrB2m4/E4eXgwn+xAPv8PIhQTt2RC4Ka+FIwJdx2bGTF+UEC3N8nkQRw8xXg6frh/LP9scveVdSh2CEG9iBrXhnrRghcnlTR1ZFc2CotxqZum0vEjmXFvx9pPu4TATf0YRBEU4uZpRXZm3LcxY+E4Hld+dupIqjF71n6qEkZx1PSzQ5UtOzaa53lmWVSJEf+M4kwf2pTGwhoR7zyP9G2QnZJJB4TATb03p1ZhSPOlNytLIyMpoJGRpdOVN8sxQGltxgO0qxbmiW5Gk+ro8x+sEFVCGsc5z25q0XXzpZWRDEDrKJXKpJZWVkvWkGliH1k4CufxLiKZfg2sapVrutVCbGtQawjONAcNQ/4klRkxKZXJnK4yVy0YScBYQMRjYXGq+7NE+tDaiCohRuCM59mMHKwa0sujZj5ZmdGVE56HfEf8Wpp6PY9AvJ3u/iQTJ4e3LYyYeNt9hsBNsx6LPnzwy6+krAhFS56e8DpvBcmWFz8pnaye/oqa21BDkY7GK1bptLisEjJ4zmNvOgEnXLIGlILydHU5KlFJwpjS8ptVkJdS49+iZhdBWVSvgccPdywIGfXpETjrsa3ZgrbdSBvKzpoR86us0yUxQsW8lHo5jKyLhXdaxPTRKyjgmDYIPHff8FTKv4HkGZgt5VqifrCLnn8rnHcjUXRA/hassSmuX9XcSjSa9bZgatGz8Ut2RoRp/KndBGPhSDUijUevrkOSTeJMQwieg7fxRR5eLDB+ecQ9YubFng0gMKJaMegYTi9DIlEt+JgPw2BpKQuKeOLaiuO/2gKCQYXmgqCeXz0zI3YHwJIInPM0WyNYTrPx0RXLmggHfOYAcLhwoMk1MZzAzW46hutaCo9djWA9U0pfPVnKIO2YGh/PjLwEEv80/szZKtTalOYSDMSIxXV9P4HH5rykmipq+MvTJytLoB+FYmYy68++erK9BgYJyeHdJy+eOAIERtTFBY6dGI2YODMQMojNnvYqo2ehwPDpZFWsdya+1LOd3T1x0V4yjLhu74hPbN00bgoikTemU30YAsJoT+9EOCSUB4lgZPhGZ8dU5rdt2Lq9EyW1fQ24f/6W0U2X9Z09GF54Iaw7m0mkl/U5xcXKqElrWkIySizrq74xDAEh52UQ7JQwpjpqamRnz+3KoVb6QCSAm+oIW7/oCcWCGCRhZ45GbVQzL206M1vCI60RaZw/0wViETfcAeNt/AQl7MRBjCAYJhqN4jhOdBrVzLdJb4CgIqZ1AJguEItnRECE3Tm1WIxQqLSK4iklBHtMMBpCfarBiBNtICbeMn4TAirJVqK1cGvRp0rf4hVwODmvJ2QYDWFxjI4aCAlvhOUcgkorbBW4aeprzxYEWtMjELzGSxO3iChtIvSSacpph4TRkhiIHpOMIkO3f1Xbky7jjIEwhucEL4ScQ0L8Kujfdpz01vY6NBCqi96JMxqPmbzUU8WvOibkV8d/e+4LoG4qQyRU+7ax5aihWIBME8W8EAqsU8IoM/67Lz5qKIhaQhCFOE4bCb113gLhlBDnT1/4RPg6DScsXgNVyWxD0uItSGfKNxinhPSb3/wJQ33J1xC23oLnzZhs6HFev0k5dtP4fwMivCYTJtZ5cBlDSyNuHPK252TScaoBuWbbh2oICPcNhGMSYTEiXcUIiDEeN2Rs5VCdjN6IJX9SjYGQVip+4hcpJ5iWfWLtuifCibbzXBP/nz+Eei+lsZZcCqUbiZoXtjzOCJfbmGNCBvcDUD+PIY6fWtLAV26LTWHofbNwjnTspnj63I9ALBzqCHlxbFEs4vJtmACRr1k5UoNy7qal3rYjGmTovKWJmsRb+S4gTup1dW1oksVcGPHYuxEL5/qWRhzjJ27R8gWM1VAMQ6/bomZzmOOij5duezeiIQwxfr2YWFEAYWFIeASUXiVxTIjH17wbEdMNLejYWOusAwgLQ+8bakjShZt6j0RjveeXr6iAECf1vttE2j/r3IglJztKkYSG8S9/64zv/nazk5I+bGcHgUi7MGLFI6Bmy4nspW81Fzeb0AcnHSqz4rysc0SPyYbQmxAMcNXfDcukfuwSblBujIhPefFTzZYaGVB3YRMfcFLBB0Jxs4ILI+Klnvavy4CLekB9AoCUe39euRBfenJjxFLluEfEwrGuUtCGDMeYALGst3GFIkF005gbI1Z6q4rJ4YpuycLoOGZAyp+d7GAU7M6IANH0hoETQH3LTRtbKdjAyac39Mrizi83RsRLuPvXZZLJd5ogpM1tBiTP5PwBlLKpOyMCRLsd+kYV1nSAMdPlYHnGr7eClM1tbgjxUmnf1RpG4VjroiYPxaH9jH8vdOfbNPyqSMT3SedmBEMmzXYv2MMMrFTIkna30ZDrIhnxRac7TJKv9btoIArUhJ0N+66SjWTGo3kHjMnCYkUTgnBXgSVS36JQlPTuk7tkIzO+P7Z7YaZwfNT1UNqyeYKNKgQ/CZWXud0Siq76fr5gHY+A77YmAgmrZwgzoc8HRslGdNOedhlLh4vJGsySyULh/Cit2o+x9pEgZi8Mqretk4At41Tp3f5aQUsJ4ArD57djUzIfjcSDD5t86Ui1Ul6VdR2KCmSpVHm/P78mkgG2tfnFg3dYPE5i0v4OAokHfNTEF8QJNbIRXedTHWQJb7wDOqwQ8XQ6HpN2rtjASYL5aACnDMlG7M1PdZgiqSv1Ic1IUk6jc18yPMvso37MzkA0I+8X7jsipBQGcxLWkFBR9u33FxDio+2gDhZUXkXsqSr2rr7k0Y4WuP4jQoLQ0+4StPLKRFEfEWMmH5VOwQtM9c6bbN5qhnPBptcCOlJQkeKnXsuiUwU+ZjIrX2H7iAgb1wd+kHCZovqGCAEMMst01D3ENPB0AwUUAgfUvFXqah7cF0CqEmQaVdU9rjRQK0IAg60TWlW6iL0OF+0FGfOSvhxG40jdhBpcvjF32xjF9g0QDKRURFcri04VxSBJhugjIKgZ6pEuAXgqZNICZNG+Aoo73NU3oP32VEgI9qlM6BExzWvsfg6KYR6K5Txt5e4VUXuIN2QxrEcRED4y6+MSjAsJc7p3hC2nq90IMpQASTQX7D+HYK18U4tI054ZGZiDYizl+9yvcy20Sf8YGfNgV1R2Qxgc4NDQLKc/NqN3RgJ+jhYVyMSoG5UrpiMJnExiG81HQP0TI3ONPldBiPJNznA2CO0OMmqFByKQnRxAkTBrljUd8AI8zm6xRaaLMpjlKW9ktjHAFKNTtdmGnpaFxpRshzjDjht4BGo1QUBPBOtwKq98S2IYgoih2SQ+blIYNJVOwiSFOi5afAtcPCqeJu3PWBTF5pqDzzBGlZs5z2dkdvi4uQ8lAPWqN9p+MLLtD5RPVLnZ5jydVwsKPLcQzMKZXyovxHKo406RIrlsY0sYNIKtqlsNztgDOMJjc5WF+gdR4O1VnySy7iBJNss2+/FPG/qn+kwlm+VIJ0FJsdk2MTlxQaynlTB7s8FmcxxlxUmSFJfLco3J2Q87t6CUF+ozC3MVlstxHMuylCLwR47L5djK3MJMXbiAxjOqWi5PbC005zYaFUmNjbnmwtZEuXxxTRcqVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFCtWb/g+dplbadjs3bgAAAABJRU5ErkJggg=="
-              />
-              <span class="find-server-list__members">12.5K 맴버</span>
-              <div class="divider"></div>
-              <span class="find-server-list__lasted">1초 전</span>
-            </div>
-          </div>
-          <div class="find-server-list__column">
-            <div class="find-server-list__server-img">
-              <img
-                src="data:image/png;base64,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"
-              />
-              <div class="find-server-list__online-count">
-                <i class="fa-solid fa-globe fa-xs"></i><span>4.8K</span>
-              </div>
-            </div>
+      <div class="find-server-list">
+        <div class="find-server-list__column">
+          <h3 class="find-server-list__title">MDN Web Docs Community</h3>
+          <span class="find-server-list__hashtags">#mdn #developer #web</span>
+          <div class="find-server-list__info">
+            <img
+              class="find-server-list__owner-img"
+              src="data:image/png;base64,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"
+            />
+            <span class="find-server-list__members">12.5K 맴버</span>
+            <div class="divider"></div>
+            <span class="find-server-list__lasted">1초 전</span>
           </div>
         </div>
-
-        <div class="find-server-list">
-          <div class="find-server-list__column">
-            <h3 class="find-server-list__title">
-              HTML, CSS 개발자 모두 모여라!
-            </h3>
-            <span class="find-server-list__hashtags"
-              >#html #css #코딩 #개발자</span
-            >
-            <div class="find-server-list__info">
-              <img
-                class="find-server-list__owner-img"
-                src="https://i.namu.wiki/i/OTd7Gg1rF9yhk54xjxqVhS3IInWmztUWjLZ1mpCaYHZYKQLlV_EjsRAnja2fr0Q6ZbyY9vHc2Z9iFQJI6AwTjA.webp"
-              />
-              <span class="find-server-list__members">1.1K 맴버</span>
-              <div class="divider"></div>
-              <span class="find-server-list__lasted">오늘</span>
-            </div>
-          </div>
-          <div class="find-server-list__column">
-            <div class="find-server-list__server-img">
-              <img
-                src="https://www.codingfactory.net/wp-content/uploads/Featured-Image-HTML5.png"
-              />
-              <div class="find-server-list__online-count">
-                <i class="fa-solid fa-globe fa-xs"></i><span>302</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="find-server-list">
-          <div class="find-server-list__column">
-            <h3 class="find-server-list__title">3N+1S :: 게임 개발자 모임</h3>
-            <span class="find-server-list__hashtags"
-              >#게임 #코딩 #유니티 #언리얼</span
-            >
-            <div class="find-server-list__info">
-              <img
-                class="find-server-list__owner-img"
-                src="https://image.zdnet.co.kr/2013/08/08/w2v1v9lfYA1ZDcLTmWOv.jpg"
-              />
-              <span class="find-server-list__members">2.8K 맴버</span>
-              <div class="divider"></div>
-              <span class="find-server-list__lasted">10분 전</span>
-            </div>
-          </div>
-          <div class="find-server-list__column">
-            <div class="find-server-list__server-img">
-              <img
-                src="https://it.chosun.com/news/photo/202001/2020012801579_1.jpg"
-              />
-              <div class="find-server-list__online-count">
-                <i class="fa-solid fa-globe fa-xs"></i><span>895</span>
-              </div>
+        <div class="find-server-list__column">
+          <div class="find-server-list__server-img">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEUPEBD///8AAACmp6fBwMAGCAg5NzeloqIMDQ0EBgb4+Pj6+vrY19fu7u5ta2s1MzO7ubnm5eWJhobT0tLy8vKqq6vIxsbh4OAcHBw9OzssKysWFha1tbXR0NBVVFRJRURkY2OSkJCbmJgjIyJ8eXlbWVmNi4tOTEyBf34tLS10cXEmJiZnZ2eWlZUZGRlDQUBmwtoJAAAJCElEQVR4nO2d63LiOhCEQUFhDIEEwjUXEgIECMny/m93drf2AuqRJU9mIVVnvn9btdXuccayLLVNrWYYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmEYhmH8f3FJziGlyaqZoJvrq1hfaEkp4u+G9YCrx+N/DzNt0bcPLSlN3KwT2mrcHP/7ItNWMR1pSWnil6GrXl9oy3XVpBShxUtoa/TUENmi+76WlCbFvhfaurmT2fLXDS0pTfxz6KqzEdoqZmpSitD9a2jr6jr8W+TZohpc0VIpTfx2HNpquEtZhYubUGoklNIEO2vQF9ry03YoNf8CFfpNWGFvL7RVwBUtllKECmjSW1eIbJGHuZFUSpNiGrpqzZ0X2fITNSlN3Ftoq7MX2nIrNSlN3CPYciSsEGbdYilFyIWu2n1XE1YIUi9SKUUcDH+tfSGz5fYgNRVKaeJgIjlwJKwQZt1iKUWwSevN7w5kFQ7UpBTB4a/+JLSFt5367CtUCBPJH50lssU36bkrpKIV2vq5jCKq8EpNShG3ggrXQlvFJUjNvkKFMJGs/+gsiS3XD58rxFKKkIf1i8bP40sqhLmRWEoRZhnxWWjL34FU9ytU+ALXzsLLbLkl3A23QilFCIe/hieZLaZJSSiliFvDZfj287xXt+V38By9FEpp4prQpN9n3SJbrguX4ZNQShHCzrrdCU88zo0epVKKFFO4DJc1EtnyO5DqC6U0cXMY/ma/jl7VluvCFb0qZFKKkIONsNG1l9nCJr26PH+FxfQ2tPUxIZEtmsDJkkpp4jYw/L3/PnhFW+4Z7hXdQialCGFn3e6lFTbDWfd4LZRSxF9CZzV3JLJF97DY01zIpDRxSxj+lr87q6ItN8N7hVBKE3cRurqa/Tl2xQo/wibtrYRSivgtXIYXf5q0mi26fwilhndeJKWJ68Lw9/H30JVsuSe8V3iZlCa4x3C1klb4Ck3aFUopQgtYoXnYyk481Zqh1M31+f+GbgXDX/PgyFVsFVO8VwilNHGQv+i9CW25ZfiUOdicv0KaYGft/nZWFVtUgyu6MS1EUpq4NTz8HkUGK9jyl3DbkUpp4iB/0VkKbbn3cALfej1/hUwKdHTYWRVsEcGGzONeJqUJkwJ9cHTwH/JtMenbX8uIlaU0ce+hq8FRZ1WwhcvmrRehlCJMVu/2qLOqdClm9dbnr5BJgY6OmjTfFi3gtjOqyaQ0KWYQsPs4Pmy2LUzftppCKVWgs8ZPQlsect3j2fkrZFKgV8dNmm2L7ucgVZNJaeIxqxceNdeWv0s16XkqhHtFby2tEHPdz+evkAp4+WAcNGl+hTD7G98LpRSh+9AVdFauLSrCp8z2g1BKE4xBDVZCW8U1SIVNepYKYSLZC5s015aD205nIpTSxEHuBd8my60Q9nZGUilF3FPoqgWdlWmLampSmjgYSQfh8JdrC19Uay28TEoTh69x4SEzK4SnzFuplCJMChRG0kxbRCDFvAF78gpxGbGOTZpnCyPi9R006RkqhJVgHP5yK2Qm8EIpRfwdhISYJs2yRTXYJd98gQpxF6VO2KRZtpj07R026ekrhD01rrPyKhzClpNUShG/g856E9oivO3Mv0CF7g1iUJcF8/8ybDHp26evUCE06Zi7DLMqhCZtS6UUYVKgfWZwyLFFeLLmQilN3FssBVrZlnuCy3AmlNIEJ5KdrfDEM+nby/P/DWkCE5o5M2XLscVExJvfZFKaMCnQZ/a8p20Ve8zqsQWeuEIY/jp7/nBJW5i+ba3Zy/CkFdIEtrb/Buyq2WLStw/clC1DShO3ir0xUNkWk75d8ufqtBVCCrQ3ixwtZcv1YV+Ue0TJkVKEvsGu4TDSWSlb5CCr15gK20ERt4bO6kc6K2WLSd++8red01b4Ak2Ka395tpj0LfuIkiGlCJMCveFnIWlbmL4d7fl7xSkrLPaYAmUfBtK2aAcrNC/8hCYppQm+xdqJdlbClnuH286rUEoRmsCGTLxJUxVi/oJ9+M2QUqTYYwo0NvwlbNEOTtYFbDnlSWmC6xcDbu0vxxaTvmVXaDKkFKEaflcvOvylKpyHUrexuVFKShEmBfoQHf7KbdEO7hUPkQl8SkoT9wwTyZLOKrWFc6P2i1BKEarBhsxjfPgrt1Vgoio6N0pIKcKlQOMjaaktmuAVHZvAJ6Q0SaZA820V+/A5ul3q+VRdiinQkuGv1Bamb3ulXwY+TYW0w1lIyUhaZotJ3z5elzTpiSrEFGi7/HvFcVvcN1iFUpowWb2y4a/MFvMN1uX5K6RvMPyFKdB8W3hFxyfwCSk9mA2ZRvlhorZokrV5nyOlSbEOXfViK2MpWxhW6SS+sX6av+E8tDWOP+2U28Jcd6+8SU9SIRE87TwmjhKzRR4WexJNepIKi8vQ1SD19f6YLeYbrPH1i3IpTZgUKAbs8mxhDKozjT9llkppglt9qSaNV4g/ogDp20wpRTAF2o4vspXbIvi8ZemjYZmUJjhVZlKgebaYb7CWPWWWSWkiaNJohbB+0Uk16QkqZFKg5RPJElv8N1hFUorkpUCzbOHLB3wMKkNKE9yPHqcPwdvCiHg92aT/vkIc/tgUaJYtB3mjDLf/vEImBcpm9TJs+S1IpZv0BBXC00474wisLbfkv8EqkFKEsLP64grxN5OkUoq4NdiKhISStvwWpBJPmVEpTTAGxb18kGXLbWDMKlsJLpNShPl5jo9CWiG+xuWFUoowKdBVeiRlbflt7HOulaU+W9Uh+KHgVmLRIWrLLfGKFp6sz1Z1AJMCHSZWaKK2mI8Qpmd/vNRnyzqg2EOF3RxXnK1F9BuslaU+WdUh+SnQtK34N1grS32uqEMIf57jhs91Z9jCRbbUCk1U6nNVHcKkQDdZncXZgkeUedYV/W8rZL7BWr4hE7fVXMNlmFzsiUgpVsilQLPuFVyFsH4xDr80kSulWCGTAo28fJC2NYR7RSwinpRSrJC5R2d2Fp6cEYTgM56jeSnF35J1b8Pgp3j7pfvRB9B2k/hV33lmv6OU5u8B488pZ7r6cQ2nkEvJijEMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzC+MP8BG5OQWD1j9AgAAAAASUVORK5CYII="
+            />
+            <div class="find-server-list__online-count">
+              <i class="fa-solid fa-globe fa-xs"></i><span>4.8K</span>
             </div>
           </div>
         </div>
       </div>
-    </main>
+
+      <div class="find-server-list">
+        <div class="find-server-list__column">
+          <h3 class="find-server-list__title">HTML, CSS 개발자 모두 모여라!</h3>
+          <span class="find-server-list__hashtags"
+            >#html #css #코딩 #개발자</span
+          >
+          <div class="find-server-list__info">
+            <img
+              class="find-server-list__owner-img"
+              src="https://i.namu.wiki/i/OTd7Gg1rF9yhk54xjxqVhS3IInWmztUWjLZ1mpCaYHZYKQLlV_EjsRAnja2fr0Q6ZbyY9vHc2Z9iFQJI6AwTjA.webp"
+            />
+            <span class="find-server-list__members">1.1K 맴버</span>
+            <div class="divider"></div>
+            <span class="find-server-list__lasted">오늘</span>
+          </div>
+        </div>
+        <div class="find-server-list__column">
+          <div class="find-server-list__server-img">
+            <img
+              src="https://www.codingfactory.net/wp-content/uploads/Featured-Image-HTML5.png"
+            />
+            <div class="find-server-list__online-count">
+              <i class="fa-solid fa-globe fa-xs"></i><span>302</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="find-server-list">
+        <div class="find-server-list__column">
+          <h3 class="find-server-list__title">3N+1S :: 게임 개발자 모임</h3>
+          <span class="find-server-list__hashtags"
+            >#게임 #코딩 #유니티 #언리얼</span
+          >
+          <div class="find-server-list__info">
+            <img
+              class="find-server-list__owner-img"
+              src="https://image.zdnet.co.kr/2013/08/08/w2v1v9lfYA1ZDcLTmWOv.jpg"
+            />
+            <span class="find-server-list__members">2.8K 맴버</span>
+            <div class="divider"></div>
+            <span class="find-server-list__lasted">10분 전</span>
+          </div>
+        </div>
+        <div class="find-server-list__column">
+          <div class="find-server-list__server-img">
+            <img
+              src="https://it.chosun.com/news/photo/202001/2020012801579_1.jpg"
+            />
+            <div class="find-server-list__online-count">
+              <i class="fa-solid fa-globe fa-xs"></i><span>895</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <nav class="nav-bar">
       <ul class="nav-list">

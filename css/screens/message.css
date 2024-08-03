@@ -2,6 +2,20 @@
   padding-top: 15px;
 }
 .message-main__all-message .user-component {
+  margin: 0 var(--main-space);
   padding-top: 10px;
   padding-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.message-main__all-message .user-component:hover {
+  margin: 0;
+  padding: 10px var(--main-space);
+  padding-bottom: 20px;
+  background-color: var(--bgpick);
+  border-radius: 15px;
+}
+
+.message-main__all-message .user-component:hover .badge {
+  animation: bouncy 0.75s ease;
 }

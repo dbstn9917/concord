@@ -40,3 +40,31 @@
 .alt-top-header__btn {
   margin-left: 25px;
 }
+
+.alt-top-header__btn:hover {
+  color: white;
+}
+
+@keyframes PhoneCall {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: rotateZ(25deg);
+  }
+  50% {
+    transform: rotateZ(-10deg) scale(1.2);
+  }
+  70% {
+    transform: rotateZ(25deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.alt-top-header__btn .fa-phone:hover {
+  color: var(--green);
+  animation: PhoneCall 0.5s ease-in-out;
+}

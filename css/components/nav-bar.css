@@ -88,11 +88,11 @@ body {
   position: absolute;
   bottom: 15px;
   left: 20px;
+  z-index: 15;
 }
 
-.nav__noti:not(.nav__noti--dot) {
+.nav-btn--on .nav__noti:not(.nav__noti--dot) {
   animation: bouncy 0.75s ease;
-  z-index: 15;
 }
 
 .nav__noti--dot {
